@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "sistema": "Assistente de atendimento",
+        "tipo": "empresa",
+        "finalidade": "Responder dúvidas de clientes",
+        "tecnologia": "IA generativa",
+        "nivel_risco": "Médio",
+        "possui_revisao_humana": true
+    },
+    {
+        "id": 2,
+        "sistema": "Professor de receitas online",
+        "tipo": "pessoas",
+        "finalidade": "Cria receitas totalmente novas",
+        "tecnologia": "IA generativa",
+        "nivel_risco": "Baixo",
+        "possui_revisao_humana": true
+    },
+    {
+        "id": 3,
+        "sistema": "Programador de site para gatos que gostam de desenho",
+        "tipo": "escola",
+        "finalidade": "Faz videos para gatos que assitem desenhos animados",
+        "tecnologia": "IA generativa",
+        "nivel_risco": "Baixo",
+        "possui_revisao_humana": false
+    },
+    {
+        "id": 4,
+        "sistema": "Ajudante de lutador de boxe",
+        "tipo": "empresa",
+        "finalidade": "Analisa se os movimentos estão corretos ou se está seguindo a regra da luta",
+        "tecnologia": "IA generativa",
+        "nivel_risco": "Médio",
+        "possui_revisao_humana": true
+    },
+    {
+        "id": 5,
+        "sistema": "Ajudante de supermercado",
+        "tipo": "pessoas",
+        "finalidade": "Analisa se os produtos estão na validade",
+        "tecnologia": "IA generativa",
+        "nivel_risco": "Baixo",
+        "possui_revisao_humana": true
+    },
+    {
+        "id": 6,
+        "sistema": "Analisador de Livros do século XIX",
+        "tipo": "empresa",
+        "finalidade": "Vê o que os livros achados do século XIX falam",
+        "tecnologia": "IA generativa",
+        "nivel_risco": "Médio",
+        "possui_revisao_humana": false
+    }
+]

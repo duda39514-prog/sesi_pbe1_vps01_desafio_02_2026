@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesquisa de campo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: rgb(212, 211, 255);">
+    <section>
+    <center>
+    <h1><p>Pesquisa de Campo sobre IAs</p></h1>
+    
+    <form action="http://127.0.0.1:3000" method="post"></form>
+    <h3><p>Responda as questões para registrar uma IA:</p></h3>
+    <input type="text" placeholder="Qual o nome do sistema??" name="sistema" required><br>
+    <h3><p>Qual tipo de IA??</p></h3>
+    <input type="checkbox" placeholder="Empresa" required>Empresa
+     <input type="checkbox" placeholder="Empresa" required>Escola
+      <input type="checkbox" placeholder="Empresa" required>Pessoal<br>
+      <h3><p>Qual a tecnologia??</p></h3>
+      <input type="text" placeholder="Teconologia" required><br>
+      <h3><p>Risco de Uso</p></h3>
+       <span id="valor-volume">Baixo</span><input type="range" placeholder="Risco" min="Baixo" max="Alto" value="Médio"  oninput="atualizaRisco(this.value)"> <span id="valor-volume">Alto</span>
+      <h3><p>Possui revisão humana??</p></h3>
+      <input type="radio" placeholder="Sim" required>Sim
+      <input type="radio" placeholder="Não" required>Não
+       <h3><p>Que data e hora a IA está sendo registrada??</p></h3>
+      <input type="datetime-local" placeholder="que ano e local a IA está sendo registrada">
+       <h3><p>Deseja colocar algum arquivp sobre a IA?</p></h3>
+      <input type="file"><br><br>
+      <input type="submit" placeholder="Enviar">
+      </center>
+      </section>
+</body>
+</html>

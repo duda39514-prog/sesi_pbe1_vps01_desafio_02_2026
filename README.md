@@ -26,3 +26,15 @@ npm run dev
 
 ---
 
+## Print dos testes e exemplo de requisições
+
+- ![foto1](./image1.png)
+- ![foto1](./image2.png)
+- ![foto1](./image3.png)
+- ![foto1](./image4.png)
+- ![foto1](./image5.png)
+- ![foto1](./image6.png)
+- ![foto1](./image7.png)
+- ![foto1](./image8.png)
+
+
